@@ -3,6 +3,6 @@
 This is Bank application that is created using React Js.      
 This is solely for practise purposes only.
 
-Thank You for checking this out. 
+Thanks for checking this out. 
 
 :)
