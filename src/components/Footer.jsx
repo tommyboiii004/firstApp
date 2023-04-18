@@ -1,12 +1,10 @@
 import styles from "../style";
-import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
         <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
             <div className={`flex-[1] flex flex-col justify-start sm:flex-col sm:${styles.flexStart} md:${styles.flexStart}`}>
-                {/* <div className="flex-[1] flex flex-col justify-start sm:flex-col sm:content-between"> */}
                 <div className='w-full flex py-4 justify-between  items-center navbar'>
                     <img
                         src='./src/assets/tomLogo.png'
