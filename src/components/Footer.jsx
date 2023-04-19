@@ -7,8 +7,8 @@ const Footer = () => (
             <div className={`flex-[1] flex flex-col justify-start sm:flex-col sm:${styles.flexStart} md:${styles.flexStart}`}>
                 <div className='w-full flex py-4 justify-between  items-center navbar'>
                     <img
-                        src='./src/assets/tomLogo.png'
-                        alt="hoobank"
+                        src='https://cdn.discordapp.com/attachments/1053710935212163072/1098133566191325184/tomLogo.png'
+                        alt="tomLogo"
                         className="w-[194px] h-[194px] object-contain"
                     />
                     <h3 className={`${styles.heading2}`}>Bank</h3>

@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <nav className='w-full flex py-4 justify-between items-center navbar'>
-            <img src='./src/assets/tomLogo.png' alt="tomLogo" className='w-[154px] h-[154px]' />
+            <img src='https://cdn.discordapp.com/attachments/1053710935212163072/1098133566191325184/tomLogo.png' alt="tomLogo" className='w-[154px] h-[154px]' />
 
             <h3 className={`${styles.heading2}`}>Bank</h3>
 
