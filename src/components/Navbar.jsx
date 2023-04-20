@@ -7,10 +7,12 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className='w-full flex py-4 justify-between items-center navbar'>
+        <nav className='w-full flex py-10 justify-between items-center navbar'>
             <img src='https://cdn.discordapp.com/attachments/1053710935212163072/1098133566191325184/tomLogo.png' alt="tomLogo" className='w-[154px] h-[154px]' />
 
-            <h3 className={`${styles.heading2}`}>Bank</h3>
+            <div>
+                <h3 className={`${styles.heading2}`}>Bank</h3>
+            </div>
 
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
@@ -25,7 +27,8 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            {/* // for mobile devices */}
+
+
             <div className='sm:hidden flex flex-1 justify-end items-center'>
                 <img src={toggle ? close : menu}
                     alt='close or menu'
